@@ -14,4 +14,4 @@ heres my board:
 
 i downloaded a variety of stuff so its kind of a mess. tried to replicate on a separate pc with win7 but arduino ide didnt work with 32-bit windows. vm had random dll errors.
 
-[i ran the stuff with the stuff in this folder]()
+[i ran the stuff with the stuff in this folder](https://github.com/7-5/boatman/tree/main/extra)
