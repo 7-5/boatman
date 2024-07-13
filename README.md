@@ -2,7 +2,7 @@
 boat sensor product internship report.
 alright. im not gonna write this like an actual report till i finish it. then i will overhaul??is that the right word??
 
-### ok. so
+## ok. so
 
 teacher liked my projects so he wanted me to make an electronic product for his boat company.
 
@@ -14,4 +14,4 @@ heres my board:
 
 i downloaded a variety of stuff so its kind of a mess. tried to replicate on a separate pc with win7 but arduino ide didnt work with 32-bit windows. vm had random dll errors.
 
-[i ran the stuff with the stuff in this folder](https://github.com/7-5/boatman/tree/main/extra)
+### [jump in this folder to replicate](https://github.com/7-5/boatman/tree/main/extra)
