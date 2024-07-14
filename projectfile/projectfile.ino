@@ -23,8 +23,6 @@ void setup() {
   delay(200);
   lcd.print("ayi");
   c1();
-  
-  lcd.print("");
 }
 
 void loop() {
