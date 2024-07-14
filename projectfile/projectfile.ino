@@ -14,16 +14,20 @@ void c1(){lcd.setCursor(0,0);lcd.print("                ");lcd.setCursor(0,0);}
 void c2(){lcd.setCursor(0,1);lcd.print("                ");lcd.setCursor(0,1);}
 
 void screen(){
+  
 }
+
 void setup() {
   clock_prescale_set(clock_div_1); // must include
   Serial.begin(19200);
   delay(200);
   lcd.begin(16, 2);
   delay(200);
-  lcd.print("ayi");
-  c1();
+  lcd.print("meow");
+  lcd.setCursor(0,1);
+  c2();
 }
 
 void loop() {
+  
 }
