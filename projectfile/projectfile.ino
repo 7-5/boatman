@@ -3,7 +3,9 @@
 
 //non lcd stuff init
 bool snoozebuttonpressed=0;
-bool snoozeinput=0;
+bool snoozeprev=0;
+int snooze=8;
+
 
 //lcd init
 const int rs=12, en=11, d4=5,d5=4,d6=3,d7=2;
@@ -20,6 +22,7 @@ void screen(){
 void setup() {
   clock_prescale_set(clock_div_1); // must include
   Serial.begin(19200);
+  pinMode(snooze,INPUT);
   delay(200);
   lcd.begin(16, 2);
   delay(200);
