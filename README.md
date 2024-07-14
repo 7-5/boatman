@@ -18,4 +18,8 @@ i downloaded a variety of stuff so its kind of a mess. tried to replicate on a s
 
 extra stuff i found about the board: in 5v, my arduino uno reads (from 1 to) 1023 whereas my lgt8f328p board reads 4064. (not 4096, im not tripping. (i shorted it once for like quarter of a second tho, though all pins work fine on high and low, so probably no damage))
 
-got my lcd screen working, on top of stuff, you need to install:
+got my lcd screen working, on top of stuff, (assuming you read the replicating folder readme and replicated) you need to install the following library to get the liquid crystal display working:
+
+![[imageofhelibrarybeinginthestateofinstalled]](anotherlibrarytoinstall.png)
+
+(latest version for me at the moment)
