@@ -15,3 +15,7 @@ heres my board:
 i downloaded a variety of stuff so its kind of a mess. tried to replicate on a separate pc with win7 but arduino ide didnt work with 32-bit windows. vm had random dll errors.
 
 ### [jump in this folder to replicate](https://github.com/7-5/boatman/tree/main/extra)
+
+extra stuff i found about the board: in 5v, my arduino uno reads (from 1 to) 1023 whereas my lgt8f328p board reads 4064. (not 4096, im not tripping. (i shorted it once for like quarter of a second tho, though all pins work fine on high and low, so probably no damage))
+
+got my lcd screen working, on top of stuff, you need to install:
