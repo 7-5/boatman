@@ -6,8 +6,6 @@ void setup() {
 }
 
 void loop() {
-  Serial.println("hoi!!!!");
-  delay(1000);
-  Serial.println("Hewwoooowowd?");
-  delay(1000);
+  Serial.println(analogRead(A3));
+  delay(100);
 }
